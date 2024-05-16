@@ -28,6 +28,8 @@ console.table([dataID, accountEmail, accountPassword, accountCity, accountState]
 
 //Object
 
+
+/*
 // ----------- Lec 03
 let score = "45abc"
 console.log(typeof score);
@@ -36,3 +38,5 @@ console.log(typeof(score));
 let valuInNumber = Number(score);
 
 console.log(typeof valuInNumber);
+
+*/

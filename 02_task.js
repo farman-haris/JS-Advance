@@ -138,3 +138,27 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 */
+
+/*
+// ----------- Lec 09
+
+let myUserName = "farmanharis55"
+let anotherUserName = myUserName
+anotherUserName = "AhmadRamey48"
+
+console.log(myUserName);
+console.log(anotherUserName);
+
+let myInfo = {
+    email: "farmanharis@gmail.com",
+    userName: "Farmanharis55"
+}
+
+let anotherInfo = myInfo
+
+anotherInfo.userName = "AhmadRamey48"
+
+console.log(myInfo);
+console.log(anotherInfo);
+
+*/
