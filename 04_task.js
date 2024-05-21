@@ -1,5 +1,5 @@
 /*
-// ----------- Lec 02
+// ----------- Lec 19
 
 function sayMyName() {
     console.log("F");
@@ -39,7 +39,8 @@ console.log(loginUserMessage())
 
 */
 
-// ----------- Lec 02
+/*
+// ----------- Lec 20
 
 function calculateCartPrice(vsl01, vsl02, ...num1) {
     return num1
@@ -66,3 +67,149 @@ function returnSecondVvalue(getArrayValue) {
 }
 
 console.log(returnSecondVvalue(myNewArray));
+
+*/
+
+
+/*
+// ----------- Lec 21
+
+//var c = 300
+let a = 300
+if (true) {
+    let a = 10
+    const b = 20
+    // console.log("INNER: ", a);
+    
+}
+
+
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+function one(){
+    const username = "hitesh"
+
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+    // console.log(website);
+
+     two()
+
+}
+
+// one()
+
+if (true) {
+    const username = "hitesh"
+    if (username === "hitesh") {
+        const website = " youtube"
+        // console.log(username + website);
+    }
+    // console.log(website);
+}
+
+// console.log(username);
+
+
+// ++++++++++++++++++ interesting ++++++++++++++++++
+
+
+console.log(addone(5))
+
+function addone(num){
+    return num + 1
+}
+
+
+
+addTwo(5)
+const addTwo = function(num){
+    return num + 2
+}
+
+*/
+
+/*
+// ----------- Lec 23
+
+// const user = {
+//     username: "farman",
+//     price: 99,
+
+//     welcomeMessage: function() {
+//         console.log(`${this.username} welcome to website`);
+//         console.log(this)
+//     }
+    
+// }
+
+// user.welcomeMessage();
+// user.username  = "Haris"
+// user.welcomeMessage();
+
+// console.log(this);
+
+// function chai(){
+//     let username = "hitesh"
+//     console.log(this.username);
+// }
+
+// chai()
+
+// const chai = function () {
+//     let username = "hitesh"
+//     console.log(this.username);
+// }
+
+const chai =  () => {
+    let username = "hitesh"
+    console.log(this);
+}
+
+
+// chai()
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// const addTwo = (num1, num2) =>  num1 + num2
+
+// const addTwo = (num1, num2) => ( num1 + num2 )
+
+const addTwo = (num1, num2) => ({username: "hitesh"})
+
+
+console.log(addTwo(3, 4))
+
+
+// const myArray = [2, 5, 3, 7, 8]
+
+// myArray.forEach()
+
+
+*/
+
+
+/*
+// ----------- Lec 24
+
+// Immediately Invoked Function Expressions (IIFE)
+
+
+(function chai(){
+    // named IIFE
+    console.log(`DB CONNECTED`);
+})();
+
+( (name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('hitesh')
+
+*/
