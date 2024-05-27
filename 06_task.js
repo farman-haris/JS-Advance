@@ -126,10 +126,19 @@ const myObj = {
 for (const key in myObj) {
     console.log(`${key} shortcut is for ${myObj[key]}`);
 }
-*/
 
 const myArr = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in myArr) {
     console.log(`My array includes ${myArr[key]}`);
 }
+
+*/
+
+//For each loop
+
+const coding = ["js", "rb", "py", "java", "cpp"]
+
+coding.forEach((val) => {
+    console.log(val);
+})
